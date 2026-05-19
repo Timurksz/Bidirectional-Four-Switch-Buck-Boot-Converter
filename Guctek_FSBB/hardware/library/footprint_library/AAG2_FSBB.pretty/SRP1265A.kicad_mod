@@ -1,0 +1,162 @@
+(footprint "SRP1265A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SRP1265A")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -0.34485 -0.12396 0)
+		(layer "F.SilkS")
+		(uuid "c110dfef-ab68-4fe8-8c63-e2233b2a7208")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SRP1265A"
+		(at -0.34485 -0.12396 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "630c63a6-fd7c-45b8-ac61-084c9f84c51f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90d77187-fa99-4e20-9a26-ca01af3f068c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b56534b-c541-4c76-be03-b1ba79da0bf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.75 -6.25)
+		(end 6.75 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1f3c516-8af8-4cb9-9faf-d4cc9cc89083")
+	)
+	(fp_line
+		(start 6.75 6.25)
+		(end -6.75 6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3202d8d3-ff4f-4903-b57a-17acab70b5ac")
+	)
+	(fp_circle
+		(center -8.311 -0.042)
+		(end -8.311 0.10134)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c6cdcaba-869b-4f65-9ddb-62fac6686405")
+	)
+	(fp_line
+		(start -6.75 -6.25)
+		(end 6.75 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d095f831-d79d-4d12-9c35-8ec5523d1e56")
+	)
+	(fp_line
+		(start -6.75 6.25)
+		(end -6.75 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f1e09ff-92d3-4cf1-aa4c-fcd290d63d6f")
+	)
+	(fp_line
+		(start 6.75 -6.25)
+		(end 6.75 6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e998dd02-347e-4c2a-a7ae-27b910b500fc")
+	)
+	(fp_line
+		(start 6.75 6.25)
+		(end -6.75 6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2b9c9af-86c5-44ce-bd2e-a13ec147b35f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.34485 -0.12396 0)
+		(layer "F.Fab")
+		(uuid "878474bd-32fb-42de-9317-735feac77890")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.55 0)
+		(size 3.1 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0829def4-54a0-46bc-aadf-871ac1d7ed40")
+	)
+	(pad "2" smd rect
+		(at 5.55 0)
+		(size 3.1 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e7b8c5b4-17ea-4034-8a3d-0dea6f0d49a2")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/DM/Desktop/Guctek_FSBB/hardware/symbol_footprint_step/step/SRP1265A-220M.stp"
+		(offset
+			(xyz 0 0 3.099999858)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

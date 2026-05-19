@@ -1,0 +1,215 @@
+(footprint "ED1202DS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ED120/2DS-3")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 2.19 0.25 0)
+		(layer "F.SilkS")
+		(uuid "eeb93f3c-6341-4304-8072-cc835434e82e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ED1202DS"
+		(at 2.19 0.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "37d11d0e-fb52-4f6a-b62b-88c4b542ad18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6249f04b-2949-4228-ad50-a2b5f5400748")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e8bbe17-7408-4b0e-9990-ad52f570e214")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.24 -4)
+		(end 7.62 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f732d2e-0367-4785-84b9-22c393a0d4e9")
+	)
+	(fp_line
+		(start -3.24 4.5)
+		(end -3.24 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e246cf1-2f3f-4275-992f-1690736db8cc")
+	)
+	(fp_line
+		(start 7.62 -4)
+		(end 7.62 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5988bc25-3f10-465e-8fc9-e580a4a0d8a2")
+	)
+	(fp_line
+		(start 7.62 4.5)
+		(end -3.24 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2eca9168-0414-4e96-8a6f-d14e8749ba86")
+	)
+	(fp_line
+		(start -4.24 -5)
+		(end 8.62 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d60db6f-9031-435a-9b91-0abade7a615a")
+	)
+	(fp_line
+		(start -4.24 5.5)
+		(end -4.24 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a65d1728-69bb-4e8f-b6d3-ca05fc0b78f0")
+	)
+	(fp_line
+		(start 8.62 -5)
+		(end 8.62 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdf3fc5d-83c8-4cf4-88d3-6d897e21ec60")
+	)
+	(fp_line
+		(start 8.62 5.5)
+		(end -4.24 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1bf71af-40b2-44fb-bced-837f3333b665")
+	)
+	(fp_line
+		(start -3.24 -4)
+		(end 7.62 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "249b6e86-c495-432c-b2f1-0782c754cf08")
+	)
+	(fp_line
+		(start -3.24 4.5)
+		(end -3.24 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05f02c25-dc8e-4da6-afd6-f4bafc519453")
+	)
+	(fp_line
+		(start 7.62 -4)
+		(end 7.62 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a913265-2062-4cdf-bd3d-40a7a24cd3c9")
+	)
+	(fp_line
+		(start 7.62 4.5)
+		(end -3.24 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd9e7a76-34ad-41f1-beed-5a50a9e3c29f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.19 0.25 0)
+		(layer "F.Fab")
+		(uuid "2865302f-7f56-43e1-8ca4-6ff3fbce7722")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b94b38d7-8903-4b2e-926c-b6d0ef4008f7")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d66fc38-68a7-490b-8f62-d6e8cdf5c382")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/DM/Desktop/Timur/Guctek_FSBB/hardware/symbol_footprint_step/step/ED120_2DS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

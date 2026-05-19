@@ -1,0 +1,269 @@
+(footprint "SER2918H333KL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SER2900 Series")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 14.1 0)
+		(layer "F.SilkS")
+		(uuid "af4a62ca-5bc0-41a6-b36c-805c9dc478bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SER2918H333KL"
+		(at 0 14.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fa9505be-9ae9-46dd-bf7b-3d49357dd78d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c70bef1-2805-483b-82e5-9a2d204be966")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a83c66e-883a-45b1-963a-4307359fe355")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -13.95 0)
+		(end -13.95 19.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcbba7cb-ea5c-4820-a9a8-4faf96a2406c")
+	)
+	(fp_line
+		(start -13.95 19.8)
+		(end 13.95 19.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfa8103c-458f-4916-b385-3d7b02067b5c")
+	)
+	(fp_line
+		(start -5.1 28.1)
+		(end -5.1 28.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a6bdfb1-557c-4336-9fb3-bdf51ae85edc")
+	)
+	(fp_line
+		(start -5.075 0)
+		(end -13.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b72331b6-3ef2-4f8a-be91-74643c190246")
+	)
+	(fp_line
+		(start -4.9 28.1)
+		(end -4.9 28.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eadad4b9-8ae3-4f01-abd7-5977eb26bc41")
+	)
+	(fp_line
+		(start 13.95 0)
+		(end 5.075 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59a4da9b-7acd-4286-a31b-6b9fbd4a9c83")
+	)
+	(fp_line
+		(start 13.95 19.8)
+		(end 13.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af07b701-85ec-46a6-a234-ab6fba944c83")
+	)
+	(fp_arc
+		(start -5.1 28.1)
+		(mid -5 28)
+		(end -4.9 28.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54860807-fad4-419e-bbb4-b2d6cc1e1c8e")
+	)
+	(fp_arc
+		(start -4.9 28.1)
+		(mid -5 28.2)
+		(end -5.1 28.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c833343a-93ea-4fff-a122-e3cde0d78de9")
+	)
+	(fp_line
+		(start -14.95 -1)
+		(end 14.95 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c783c4e-1854-45b0-bef8-62dec86201fd")
+	)
+	(fp_line
+		(start -14.95 29.2)
+		(end -14.95 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60aca6d2-d434-4328-ac97-03bb5c0d8efb")
+	)
+	(fp_line
+		(start 14.95 -1)
+		(end 14.95 29.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c39822fc-9211-4781-9b1f-5b42639b95fb")
+	)
+	(fp_line
+		(start 14.95 29.2)
+		(end -14.95 29.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e9dfd5f-be0c-42c8-b864-acb527cbc8d1")
+	)
+	(fp_line
+		(start -13.95 0)
+		(end 13.95 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f7e6164-0585-4001-94e4-ebc4a0aa1270")
+	)
+	(fp_line
+		(start -13.95 19.8)
+		(end -13.95 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02044f92-b9b4-4c49-a757-2e10d362dda7")
+	)
+	(fp_line
+		(start 13.95 0)
+		(end 13.95 19.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd5b55d6-ca2a-4461-9458-d26620876720")
+	)
+	(fp_line
+		(start 13.95 19.8)
+		(end -13.95 19.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d458a6e9-2703-4688-ad72-5e4882b6e750")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 14.1 0)
+		(layer "F.Fab")
+		(uuid "fe46e714-9a75-49a2-8cb2-e39e77e2728e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.075 24.715)
+		(size 5.33 5.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "868b01c3-5e92-44a2-936c-03f63f6bc448")
+	)
+	(pad "2" smd rect
+		(at 5.075 24.715)
+		(size 5.33 5.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62792832-1a7e-485a-a09e-8dfb5697148e")
+	)
+	(pad "3" smd rect
+		(at 0 2.64 90)
+		(size 5.28 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef627c89-51fe-4c82-aa8a-901ddbf3238c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/DM/Desktop/Timur/Guctek_FSBB/hardware/symbol_footprint_step/step/SER2918H-153KL.stp"
+		(offset
+			(xyz -0.17 -11.16 1.29)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

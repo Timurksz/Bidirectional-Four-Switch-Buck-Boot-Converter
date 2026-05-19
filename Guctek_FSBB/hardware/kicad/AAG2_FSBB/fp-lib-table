@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AAG2_FSBB")(type "KiCad")(uri "C:/Users/DM/Desktop/Guctek_FSBB/hardware/library/footprint_library/AAG2_FSBB.pretty")(options "")(descr ""))
+)
