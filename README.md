@@ -1,4 +1,4 @@
-This repository contains the design files and documentation for a 100W Bidirectional 4-Switch Buck-Boost (FSBB) Converter, 
+This repository contains the design files and documentation for a 100W Bidirectional Four Switch Buck-Boost (FSBB) Converter, 
 digitally controlled by the Texas Instruments UCD3138 highly integrated digital power supply controller.
 
 This converter is designed for bidirectional energy transfer, making it ideal for battery management systems (BMS), 
